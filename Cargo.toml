@@ -1,0 +1,9 @@
+[package]
+name = "axum-stackoverflow"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+axum = "0.2.6"
+tokio = { version = "1.12", features = ["macros", "rt-multi-thread", "rt"] }
+tracing-subscriber = "0.2.24"
